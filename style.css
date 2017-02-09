@@ -430,7 +430,7 @@ article.category-portfolio.h-entry .entry-title{
   margin-top: 5px;
 }
 article.category-portfolio.h-entry .entry-title a{
-  color: white;
+  color: white !important;
   text-shadow: 0 0 8px rgba(0,204,204,1);
 }
 
@@ -446,11 +446,9 @@ nav.post-navigation{
 }
 
 
-
-//BEGIN FACEPILES
+/* BEGIN FACEPILES */
 
 div.comments-area ul{
-  background-color:white;
   margin-left:10px !important;
   padding:0px !important;
   margin-bottom:0px !important;
@@ -517,4 +515,12 @@ ul.facepile li img.u-photo{
   height:50px;
 }
 
-// END FACEPILES
+
+/* END FACEPILES */
+
+
+span.moodvalue{
+        display:none;
+}
+
+

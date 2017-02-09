@@ -57,9 +57,43 @@ function facepiles(){
 	jQuery("ul.facepile article").mouseout(function(){console.log("out");jQuery(this).find(".p-author .p-name").hide();});
 }
 
+function moodemoji(){
+        jQuery("div.p-mood").each(function(){
+                jQuery(this).html(jQuery(this).html().replace(/\((\d+)%\)/g, function(match, value, offset, s){
+			moods = {
+				90:"😁",
+				80:"😀",
+				70:"😊",
+				60:"🙂",
+				50:"😐",
+				40:"🙁",
+				30:"☹️",
+				20:"😞",
+				10:"😣",
+				0:"😫"
+				}
+			highest = 0;
+			found = false;
+			for (var key in moods) {
+				if(value > key && key > highest){
+					highest = key;
+					found = true;
+				}
+			}
+			if(found){
+				return " "+moods[highest]+'<span class="moodvalue">'+value+'%</span>';
+			}
+
+                        return " ("+value+"%)";
+                }));
+		console.log(jQuery(this).html());
+        });
+}
+
 jQuery(document).ready(function() {
 	blockQuoteExpander();
 	facepiles();
+	moodemoji();
 	jQuery("body").linker();
 	jQuery(".rollable").click(function(){alert(jQuery(this).text()+": "+parse(jQuery(this).text()));});
 });
