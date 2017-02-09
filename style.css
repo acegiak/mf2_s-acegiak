@@ -1,0 +1,520 @@
+/*
+Theme Name: MF2_s Acegiak
+Template: mf2_s-master
+Author: acegiak
+Version: 1.0
+Updated: 2015-02-11 21:09:50
+*/
+
+@charset "UTF-8";
+
+@font-face{
+        font-family: 'Acegiak2014';
+        src: url('acegiakfont/Acegiak2014.eot') format('embedded-opentype'),
+        url('acegiakfont/Acegiak2014.woff') format('woff');
+}
+
+h1,h2,h3,h4,h5,h6{
+        font-family:'Acegiak2014',Helvetica,Arial,sans-serif;
+}
+
+
+body, button, input, select, textarea{
+  font-size:medium !important;
+}
+
+article{
+  margin-bottom:15px;
+  border-width:3px !important;
+  border: 3px solid #101818;
+  border-image: url('https://acegiak.net/wp-content/uploads/2016/10/bevelborder-1.png') 3 repeat; 
+  padding:0px 2px 2px 2px;
+}
+
+
+div#content,header#masthead{
+ margin-left:auto;
+  margin-right:auto;
+  max-width:1012px;
+}
+nav#site-navigation{
+ margin-top:20px; 
+  font-weight:bold;
+}
+#primary{
+  max-width:700px;
+  float:left;
+}
+div#secondary{
+  max-width:300px;
+  float:right;
+}
+
+
+a, a:visited{
+  color:#ab7cdf !important;
+  text-decoration:none !important;
+}
+a:hover{
+ color:#632770 !important;
+ text-decoration:none !important;
+}
+a:active{
+ color:#632770 !important;
+ text-decoration:none !important;
+}
+
+article.kind-repost header.entry-header div{
+  font-size:x-small;
+  display: inline;
+  float:right;
+}
+
+ul.cites{
+  padding:0px;
+  margin:0px;
+}
+
+article.kind-repost h2.entry-title,
+article.kind-like h2.entry-title,
+article.kind-watch h2.entry-title,
+article.kind-like h2.entry-title,
+article.kind-play h2.entry-title,
+article.kind-listen h2.entry-title{
+  display:none;
+}
+article.kind-watch div.entry-meta,
+article.kind-like div.entry-meta,
+article.kind-play div.entry-meta,
+article.kind-listen div.entry-meta,
+article div.entry-meta{
+  font-size:x-small;
+  display:inline
+  float:right;
+  margin-right:5px;
+}
+
+div.response{
+  font-size:small;
+  margin:15px 5px 10px 5px;
+  box-shadow:inset 0px 0px 10px black;
+  padding:0px;
+  border: 4px solid transparent;
+  border-image: url('https://acegiak.net/wp-content/uploads/2016/10/ridgeborder.png') 4 repeat;
+}
+
+
+/*1*/
+h1, h2, h3, h4, h5, h6, div.site-title {
+    font-family:  'Acegiak2014',sans-serif;
+}
+div.site-title{
+ font-size:xx-large;
+  font-weight:bold;
+}
+
+blockquote img{
+height:75px !important;
+  width:auto !important;
+}
+blockquote.expanded img{
+height:auto !important;
+}
+blockquote br{
+display:none;
+}
+blockquote.expanded br{
+  display:block;
+}
+blockquote{
+  font-size:small;
+}
+blockquote.expanded{
+  font-size:medium;
+}
+blockquote p{
+  margin:0px;
+}
+blockquote.expanded p{
+  margin-top:13px;
+  margin-bottom:19px;
+}
+blockquote figure{
+display:inline;
+  margin:none;
+}
+blockquote.expanded figure{
+display:auto;
+  margin:auto;
+}
+
+ul.blogroll li a img{
+  max-height:25px;
+  max-width:25px;
+}
+
+ul.blogroll{
+  margin-left:0px;
+}
+
+img.whisperauthorav{
+ max-width:25px;
+  max-height:25px;
+}
+
+div.whisper{
+  margin-bottom:35px;
+}
+
+div.whispercontent img{
+  max-width:100% !important;
+}
+
+
+a.contactbutton{
+  display:inline;
+float:left;
+margin:5px;
+padding:2px 5px;
+font-size:small;
+font-weight:bold;
+  margin-top:0px;
+  
+    
+  color:#fff !important;
+  /*text-shadow: 0 0 3px #80c;
+box-shadow: 2px 2px 5px #8800aa;*/
+border:1px solid #648;
+border-radius:5px;
+background-color:#333;
+}
+a.telephone::before { 
+    content: "Telephone:\a";
+    white-space: pre;
+  color:black;
+}
+a.sms::before { 
+    content: "SMS:\a";
+    white-space: pre;
+  color:black;
+}
+/*a.email::before { 
+    content: "Email:\a";
+    white-space: pre;
+  color:black;
+}*/
+a.irc::before { 
+    content: "IRC:\a";
+    white-space: pre;
+  color:black;
+}
+article img{
+max-width:100%;
+}
+
+img.size-large,video.size-large{
+  width:100%;
+}
+
+div.content video{
+	max-width:100%;  
+}
+
+li.menu-item a{color:white !important;}
+li.menu-item{
+  /*border: 1px solid #626;
+  text-shadow: -1px 0 #626, 0 1px #626,
+      1px 0 #626, 0 -1px #626;*/
+  font-size:large;
+  margin-left:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  
+  color:#fff !important;
+  text-shadow: 0 0 3px #0cc;
+box-shadow: 2px 2px 5px #00aaaa;
+border:1px solid #006666;
+border-radius:5px;
+background-color:#333;
+}
+
+
+body{
+ background-color:#101818 !important;
+  color:#dbd9df !important;
+}
+article{
+ background-color:#282426; 
+  
+ background-image:url("https://acegiak.net/wp-content/uploads/2016/08/rust252.png"); 
+}
+div.response{
+   background-color:#282426; 
+ background-image:url("https://acegiak.net/wp-content/uploads/2016/08/scanlines0.25.png"); 
+  padding:5px;
+}
+div.content{
+ padding:0px;
+  margin:0px;
+}
+div.e-content,div.p-summary,h2.p-name{
+  padding:6px;
+  margin:0px;
+}
+footer.entry-footer{
+  padding-left:5px;
+  font-size:xx-small;
+}
+blockquote{
+   background: rgb(22, 22, 22); /* The Fallback */
+   background: rgba(255, 255, 255, 0.015); 
+   padding:5px;
+}
+
+div.head-sidebar, div.head-sidebar div.h-card{
+  position:relative;
+  height:auto;
+  float:left;
+  width:100%;
+}
+
+div.head-sidebar div.h-card{
+  border-right: 4px solid #333;
+  border-bottom: 4px solid #333;
+  padding-bottom:5px;
+}
+
+div.head-sidebar div.h-card img.u-photo{
+  border-left: 4px solid #333;
+  border-bottom: 4px solid #333;
+}
+
+code{
+ font-size:12px !important; 
+}
+
+div#unityPlayer{
+ width:810px;
+background-color:#111;
+  position:fixed;
+  top:100px;
+  margin-left:auto;
+  margin-right:auto;
+  padding:5px;
+box-shadow: 2px 2px 5px #888888;
+border:1px solid #666666;
+border-radius:5px;
+font-size:small;
+font-weight:bold;
+}
+
+button.closebutton{float:right;font-size:small;background-color:grey;}
+#MmmUnityLoader{
+  padding:5px;
+box-shadow: 2px 2px 5px #888888;
+border:1px solid #666666;
+border-radius:5px;
+background-color:grey;
+font-weight:bold;
+}
+
+img.size-full{
+  max-width:100% !important;
+}
+
+.rpgmap{
+ background-color:#f2ddaf; 
+
+    background-size: 100% 100%;
+ background-image:url(https://acegiak.net/wp-content/uploads/2016/08/6750396225_aed67fe62e_o2.jpg); 
+}
+
+.statblock strong, .statblock h3, .statblock h4 {
+ color:#400; 
+}
+
+.statblock h1, .statblock h2{
+ text-decoration:underline; 
+}
+.statblock{
+  margin:5px;
+  padding:15px;
+ color:black;
+ background-color:#f2ddaf; 
+
+    background-size: 100% 100%;
+ background-image:url(https://acegiak.net/wp-content/uploads/2016/08/6750396225_aed67fe62e_o2.jpg); 
+}
+
+.sideblock{
+  
+  max-width:300px;
+  font-size:x-small;
+  float:right;
+  clear:right;
+}
+
+.content ol{
+  margin-left:0px;
+}
+
+pre{
+ font-size: small;
+  background-color:#444;
+  
+}
+
+
+#cite_url{
+  width:50px;
+}
+
+img.wp-post-image{
+  display:block !important;
+}
+
+.mystufficon,.mystufficon:visited,.mystufficon:hover,.mystufficon:active{
+  float:right;
+  display:inline-block;
+  width:200px;
+  height:200px;
+  max-width:200px;
+  max-height:200px;
+  min-width:200px;
+  min-width:200px;
+  background-size: 100% 100%;
+  color: white !important;
+  text-shadow: 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black, 0px 0px 4px black;
+  text-align:center;
+  
+}
+
+.mystufficon:hover{
+  border:1px solid white; 
+}
+h2.widget-title, aside.widget{
+  margin:10px 0px; 
+}
+
+#categories-2 .widget-title{
+  display:none;
+}
+
+div.response svg.svg-icon{
+  fill:rgba(0,204,204,1) !important;
+  height:16px;
+}
+
+div.h-cite svg.svg-icon{
+}
+
+
+article.category-portfolio.h-entry.has-post-thumbnail{
+  min-height:225px;
+}
+article.category-portfolio.h-entry img.wp-post-image{
+  float:left;
+  margin-left:5px;
+  margin-right:15px;
+  margin-bottom:10px;
+}
+article.category-portfolio.h-entry div.entry-meta{
+  float:right;
+  margin:5px;
+  position:relative;
+  font-size:small;
+}
+article.category-portfolio.h-entry .entry-title{
+  clear:none;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+article.category-portfolio.h-entry .entry-title a{
+  color: white;
+  text-shadow: 0 0 8px rgba(0,204,204,1);
+}
+
+article div.entry-content img, article div.entry-summary img{
+  border: 4px solid transparent;
+  border-image: url('https://acegiak.net/wp-content/uploads/2016/10/ridgeborder.png') 4 repeat; 
+  background-color:#282426; 
+  background-image:url("https://acegiak.net/wp-content/uploads/2016/08/scanlines0.25.png"); 
+}
+
+nav.post-navigation{
+ display:none; 
+}
+
+
+
+//BEGIN FACEPILES
+
+div.comments-area ul{
+  background-color:white;
+  margin-left:10px !important;
+  padding:0px !important;
+  margin-bottom:0px !important;
+  height:auto !important;
+}
+
+div.comments-area ul li{
+    list-style-type: none;
+}
+
+div.comments-area ul.repost-list::before{
+  font-size:xx-large;
+  float:left;
+  margin-right:10px;
+  content:"🔁";
+}
+
+div.comments-area ul.like-list::before{
+  font-size:xx-large;
+  float:left;
+  margin-right:10px;
+  content:"❤️";
+}
+
+ul.facepile li, ul.facepile li article, ul.facepile li span.p-author{
+  padding:0px;
+  background:none;
+  border:none;
+  height:50px;
+  margin:0px;
+  display:inline-block;
+  overflow:hidden;
+  position:relative;
+  top:0px;
+  left:0px;
+}
+
+ul.facepile li span.p-summary, ul.facepile li time.dt-published{
+   display:none;
+}
+
+ul.facepile li span.p-author span.p-name, ul.facepile li span.p-author span.p-name a{
+  color:white !important;
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  font-size:x-small;
+  text-align:center;
+  vertical-align: middle;
+  z-index:1;
+  background-color: rgba(0, 0, 0, 0.3);
+  overflow:hidden;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  padding:1px;
+}
+
+ul.facepile li img.u-photo{
+  z-index:0;
+  width:50px;
+  height:50px;
+}
+
+// END FACEPILES
